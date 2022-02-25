@@ -1,0 +1,214 @@
+html,body{
+    margin: 0px;
+    border: 0;
+    padding: 0;
+    background-color: #0F044C;
+    background-image: url("FFXIV_ENDWALKER_logo_EN.jpg");
+    font-family: sans-serif;
+    background-size:contain;
+}
+
+.navBarContainer{
+    border-bottom:  #787A91;
+    border-style: solid;
+}
+.navBarContainer ul{
+list-style: none;
+background-color: #0F044C;
+text-align: right;
+padding-bottom: 10px;
+justify-content:center ;
+margin: 0;
+padding-right: 50px;
+
+}
+
+
+.navBarContainer li{
+  font-size: 1.5em;
+  line-height: 40px;
+  height: 40px;
+  display: inline-block;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-top: 10px;
+  color: #EEEEEE;
+}
+
+.mainParagraphContainer{
+    display:flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+    padding-bottom: 50px;
+    padding-top:50px; 
+    padding-left: 10px;
+    padding-right: 50px;
+    box-sizing: border-box;
+    background-color:#EEEEEE;
+    text-align:center;
+    color: #0F044C;
+    margin: 50px;
+    border-radius:2em;
+    border:solid 5px  #787A91;
+}
+
+.mainParagraphButton{
+    border: none;
+    color: #EEEEEE;
+    text-align: center;
+    background-color:#141E61;
+    font-size: 22px;
+    padding: 15px;
+    border-radius: 0.5em;
+}
+
+
+.mainParagraphItems{
+    flex:1 0 0%;
+    font-size: 50px;
+
+}
+.mainParagraph{
+    padding-left: 200px;
+}
+.mainParagraphImage{
+    width:900px;
+    height:700px;
+    border:solid 8px  #0F044C;
+    border-radius: 2.5em;
+
+}
+.mainImagesAndHeaderContainer{
+    display: flex;
+    flex-direction:column;
+    gap: 80px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width:auto;
+    background-color: #141E61;
+}
+
+.mainImageContainer{
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    padding-bottom: 350px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width:auto;
+    background-color: #141E61;
+}
+
+.mainImageClass{
+    width: 200px;
+    height: 200px;
+    color: #EEEEEE;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+.mainImageHeader{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #EEEEEE;
+    background-color: #141E61;
+}
+
+.mainImageList li{
+    list-style: none;
+    padding: 10px;
+}
+
+#jobIcons{
+    background-image: url(gunbreakerIcon.png);
+    background-position: left;
+    background-size: 25px;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding-left: 28px;
+    
+}
+
+.secondaryParagraphContainer{
+    display:flex;
+    align-items:center;
+    flex-direction: row;
+    justify-content:center;
+    width: auto;
+    background-color: #787A91;
+    box-sizing: border-box;
+    height: 500px;
+    text-align: center;
+    color: #EEEEEE;
+    
+}
+
+.secondaryParagraphItem{
+    text-align: center;
+    font-size: 30px;
+}
+.ParagraphContainer{
+    display:flex;
+    align-items:center;
+    flex-direction: row;
+    width: 1500px;
+    justify-content:center;
+    padding-bottom: 100px;
+    background-color: #787A91;
+    box-sizing: border-box;
+    text-align: center;
+    gap:100px;
+    margin-left:200px ;
+    height:200px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    color: #EEEEEE;
+    border: solid 3px #EEEEEE;
+    border-radius: 0.5em;
+
+
+}
+
+.ParagraphItem{
+    text-align: center;
+    font-size: 20px;   
+    margin-top: 200px;
+    margin-bottom: 100px;
+}
+.ParagraphButton{
+    border:solid;
+    color: #EEEEEE;
+    text-align: center;
+    background-color: #787A91;
+    font-size: 20px;
+    padding: 20px;
+    border-radius: 2em;
+    align-self:center;
+}
+
+.footerContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(252, 249, 249);
+    width: auto;
+    height: 40px;
+    box-sizing: border-box;
+    gap: 50px;
+}
+.footerItems{
+
+    text-align: center;
+    font-size:20px ;
+    
+}
+
